@@ -11,8 +11,16 @@ npm i -g @bazel/bazelisk
 bazel --version
 ```
 
-## 二、运行
+## 二、命令
+
+### 1. 构建
 
 ```shell
 bazel build ${rule_name}
+```
+
+### 2. 运行
+
+```shell
+bazel run ${rule_name}
 ```
