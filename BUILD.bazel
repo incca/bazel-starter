@@ -1,0 +1,6 @@
+# 构建规则 hello - 生成内容为 Hello World 的 hello-world.txt 文件
+genrule(
+  name = "hello",
+  outs = ["hello-world.txt"],
+  cmd = "echo Hello World > $(OUTS)",
+)
